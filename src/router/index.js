@@ -15,7 +15,7 @@ export default new Router({
   routes: [
   {
     path: '/',
-    name: 'VHome',
+    name: 'Home',
     redirect: '/recommend'
   },
   {
