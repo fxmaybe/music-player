@@ -23,10 +23,10 @@ export default new Router({
     name: 'VRecommend',
     component: VRecommend,
     children: [
-    {
-      path: ':id',
-      component: CDisc
-    }
+      {
+        path: ':id',
+        component: CDisc
+      }
     ]
   },
   {
@@ -34,10 +34,10 @@ export default new Router({
     name: 'VSinger',
     component: VSinger,
     children: [
-    {
-      path: ':id',
-      component: CSingerDetail
-    }
+      {
+        path: ':id',
+        component: CSingerDetail
+      }
     ]
   },
   {
@@ -45,10 +45,10 @@ export default new Router({
     name: 'VRank',
     component: VRank,
     children: [
-    {
-      path: ':id',
-      component: CTopList
-    }
+      {
+        path: ':id',
+        component: CTopList
+      }
     ]
   },
   {
