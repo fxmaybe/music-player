@@ -1,6 +1,6 @@
 <template>
   <div id="app" @touchmove.prevent>
-    <c-top-bar></c-top-bar>
+    <c-header></c-header>
     <c-tab></c-tab>
     <router-view />
     <c-player></c-player>
@@ -8,14 +8,14 @@
 </template>
 
 <script>
-  import CTopBar from '@/components/layout/CTopBar';
+  import CHeader from '@/components/layout/CHeader';
   import CTab from '@/components/layout/CTab';
   import CPlayer from '@/components/player/CPlayer';
 
   export default {
     name: 'App',
     components: {
-      CTopBar,
+      CHeader,
       CTab,
       CPlayer
     }
